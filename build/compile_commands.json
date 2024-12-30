@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/projects/cProjects/ray_tracing/build",
+  "command": "C:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/ray_tracing.dir/includes_C.rsp -std=c2x -Wall -Wextra -Wpedantic -o CMakeFiles\\ray_tracing.dir\\src\\main.c.obj -c C:\\projects\\cProjects\\ray_tracing\\src\\main.c",
+  "file": "C:/projects/cProjects/ray_tracing/src/main.c",
+  "output": "CMakeFiles/ray_tracing.dir/src/main.c.obj"
+}
+]
