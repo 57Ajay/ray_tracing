@@ -16,8 +16,14 @@ else()
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+# Include the headers
+include_directories(include)
+
 # Add the executable
-add_executable(${PROJECT_NAME} src/main.c)
+add_executable(${PROJECT_NAME}
+  src/main.c
+  src/twoD.c
+)
 
 # Set output directory
 set_target_properties(${PROJECT_NAME}
@@ -29,3 +35,7 @@ set_target_properties(${PROJECT_NAME}
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
+
+# Adding dependency: raylib
+find_package(raylib CONFIG REQUIRED)
+target_link_libraries(${PROJECT_NAME} ${raylib_LIBRARIES})

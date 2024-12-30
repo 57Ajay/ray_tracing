@@ -1,3 +1,0 @@
-C:/projects/cProjects/ray_tracing/build/CMakeFiles/ray_tracing.dir
-C:/projects/cProjects/ray_tracing/build/CMakeFiles/edit_cache.dir
-C:/projects/cProjects/ray_tracing/build/CMakeFiles/rebuild_cache.dir
